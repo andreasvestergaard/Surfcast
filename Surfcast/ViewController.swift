@@ -17,7 +17,15 @@ class ViewController: UIViewController {
         
         var url = NSURL(string: "http://www.weather-forecast.com/locations/" + userCity.text.stringByReplacingOccurrencesOfString(" ", withString: "-") + "/forecasts/latest")
         
-        if url != nil {
+       
+        
+        if userCity.text == "flatiron" {
+            
+         resultLabel.text = "hi guys"
+            
+            
+       
+        } else if url != nil {
             
             let task = NSURLSession.sharedSession().dataTaskWithURL(url!, completionHandler: { (data, response, error) -> Void in
                 
@@ -44,8 +52,6 @@ class ViewController: UIViewController {
                         urlError = true
                         
                     }
-                    
-                    
                     
                 } else {
                     
@@ -77,8 +83,8 @@ class ViewController: UIViewController {
             
         }
         
-        
     }
+    
     
     @IBOutlet var resultLabel: UILabel!
     
