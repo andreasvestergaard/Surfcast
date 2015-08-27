@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>25F9BC30-E919-404A-9FAC-7C2A86067AF0</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Surfcast</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>7301CBE9703094D6E27E7E83921CA8A016BFC556</key>
 		<string>github.com:andreasvestergaard/Surfcast.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Surfcast.xcodeproj/project.xcworkspace</string>
+	<string>Surfcast.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>7301CBE9703094D6E27E7E83921CA8A016BFC556</key>

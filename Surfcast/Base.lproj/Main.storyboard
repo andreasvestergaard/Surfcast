@@ -85,7 +85,6 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="findWeather" destination="Ycs-WT-MrX" id="nHo-ea-Sxs"/>
                         <outlet property="resultLabel" destination="1se-8A-DbV" id="Ub8-Yv-IpT"/>
                         <outlet property="userCity" destination="e17-6Y-W4w" id="Bpd-KQ-5z7"/>
                     </connections>
