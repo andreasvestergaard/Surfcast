@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
     
     
     @IBOutlet var userCity: UITextField!
@@ -22,7 +22,6 @@ class ViewController: UIViewController {
         if userCity.text == "flatiron" {
             
          resultLabel.text = "hi guys"
-            
             
        
         } else if url != nil {
@@ -99,12 +98,26 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        self.userCity.delegate = self
         
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
+    
+        self.view.endEditing(true)
+        
+    }
+    
+    func textFieldShouldReturn(userCity: UITextField) -> Bool {
+        
+        userCity.resignFirstResponder()
+        
+        return true
     }
     
     
