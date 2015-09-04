@@ -19,6 +19,7 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ddc6607f.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="3zU-Pg-RLq">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <gestureRecognizers/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Surfcast" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vY3-za-MO6">
                                 <rect key="frame" x="102" y="189" width="171" height="75"/>
@@ -87,11 +88,36 @@
                     <connections>
                         <outlet property="resultLabel" destination="1se-8A-DbV" id="Ub8-Yv-IpT"/>
                         <outlet property="userCity" destination="e17-6Y-W4w" id="Bpd-KQ-5z7"/>
+                        <segue destination="kYf-Gi-shC" kind="show" identifier="flatiron" id="LEB-Ef-XID"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="562.5" y="381.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="WGr-9W-Mpw">
+            <objects>
+                <viewController id="kYf-Gi-shC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FVY-Kt-Yko"/>
+                        <viewControllerLayoutGuide type="bottom" id="Y3X-ZR-Jxw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0RE-n1-0tw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z7O-vd-1rJ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s1Z-cx-Jk8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1040.5" y="381.5"/>
         </scene>
     </scenes>
     <resources>

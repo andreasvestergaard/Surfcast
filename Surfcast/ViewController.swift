@@ -19,9 +19,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
        
         
-        if userCity.text == "flatiron" {
+        if userCity.text == "Flatiron" || userCity.text == "flatiron" {
             
-         resultLabel.text = "hi guys"
+        self.performSegueWithIdentifier("flatiron", sender: nil)
             
        
         } else if url != nil {

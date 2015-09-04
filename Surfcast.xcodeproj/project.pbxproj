@@ -13,7 +13,7 @@
 		2DA8BE571B8F1EB100C73951 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DA8BE561B8F1EB100C73951 /* Images.xcassets */; };
 		2DA8BE5A1B8F1EB100C73951 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DA8BE581B8F1EB100C73951 /* LaunchScreen.xib */; };
 		2DA8BE661B8F1EB100C73951 /* SurfcastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA8BE651B8F1EB100C73951 /* SurfcastTests.swift */; };
-		2DA8BE701B8F27A900C73951 /* ddc6607f.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2DA8BE6F1B8F27A900C73951 /* ddc6607f.jpeg */; };
+		2DF04F9C1B970DB300719029 /* ddc6607f.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2DF04F9B1B970DB300719029 /* ddc6607f.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,7 @@
 		2DA8BE5F1B8F1EB100C73951 /* SurfcastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurfcastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DA8BE641B8F1EB100C73951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DA8BE651B8F1EB100C73951 /* SurfcastTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfcastTests.swift; sourceTree = "<group>"; };
-		2DA8BE6F1B8F27A900C73951 /* ddc6607f.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ddc6607f.jpeg; path = ../../../../photos/ddc6607f.jpeg; sourceTree = "<group>"; };
+		2DF04F9B1B970DB300719029 /* ddc6607f.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ddc6607f.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,9 +82,9 @@
 				2DA8BE4F1B8F1EB100C73951 /* AppDelegate.swift */,
 				2DA8BE511B8F1EB100C73951 /* ViewController.swift */,
 				2DA8BE531B8F1EB100C73951 /* Main.storyboard */,
+				2DF04F9B1B970DB300719029 /* ddc6607f.jpeg */,
 				2DA8BE561B8F1EB100C73951 /* Images.xcassets */,
 				2DA8BE581B8F1EB100C73951 /* LaunchScreen.xib */,
-				2DA8BE6F1B8F27A900C73951 /* ddc6607f.jpeg */,
 				2DA8BE4D1B8F1EB100C73951 /* Supporting Files */,
 			);
 			path = Surfcast;
@@ -195,8 +195,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DF04F9C1B970DB300719029 /* ddc6607f.jpeg in Resources */,
 				2DA8BE551B8F1EB100C73951 /* Main.storyboard in Resources */,
-				2DA8BE701B8F27A900C73951 /* ddc6607f.jpeg in Resources */,
 				2DA8BE5A1B8F1EB100C73951 /* LaunchScreen.xib in Resources */,
 				2DA8BE571B8F1EB100C73951 /* Images.xcassets in Resources */,
 			);
@@ -413,6 +413,7 @@
 				2DA8BE6B1B8F1EB100C73951 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DA8BE6C1B8F1EB100C73951 /* Build configuration list for PBXNativeTarget "SurfcastTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +422,7 @@
 				2DA8BE6E1B8F1EB100C73951 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
