@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D9FFF6D1B9DBC4500A44755 /* Screen Shot 2015-09-07 at 14.33.28.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D9FFF6C1B9DBC4500A44755 /* Screen Shot 2015-09-07 at 14.33.28.png */; };
 		2DA8BE501B8F1EB100C73951 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA8BE4F1B8F1EB100C73951 /* AppDelegate.swift */; };
 		2DA8BE521B8F1EB100C73951 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA8BE511B8F1EB100C73951 /* ViewController.swift */; };
 		2DA8BE551B8F1EB100C73951 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA8BE531B8F1EB100C73951 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D9FFF6C1B9DBC4500A44755 /* Screen Shot 2015-09-07 at 14.33.28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2015-09-07 at 14.33.28.png"; sourceTree = "<group>"; };
 		2DA8BE4A1B8F1EB100C73951 /* Surfcast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Surfcast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DA8BE4E1B8F1EB100C73951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DA8BE4F1B8F1EB100C73951 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				2DA8BE511B8F1EB100C73951 /* ViewController.swift */,
 				2DA8BE531B8F1EB100C73951 /* Main.storyboard */,
 				2DF04F9B1B970DB300719029 /* ddc6607f.jpeg */,
+				2D9FFF6C1B9DBC4500A44755 /* Screen Shot 2015-09-07 at 14.33.28.png */,
 				2DA8BE561B8F1EB100C73951 /* Images.xcassets */,
 				2DA8BE581B8F1EB100C73951 /* LaunchScreen.xib */,
 				2DA8BE4D1B8F1EB100C73951 /* Supporting Files */,
@@ -199,6 +202,7 @@
 				2DA8BE551B8F1EB100C73951 /* Main.storyboard in Resources */,
 				2DA8BE5A1B8F1EB100C73951 /* LaunchScreen.xib in Resources */,
 				2DA8BE571B8F1EB100C73951 /* Images.xcassets in Resources */,
+				2D9FFF6D1B9DBC4500A44755 /* Screen Shot 2015-09-07 at 14.33.28.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
