@@ -1,6 +1,6 @@
 # Surfcast
 
-Check the weather for surfing. faster. 
+Check the weather for surfing. Faster. 
 
 Made for iPhone 6/6s.
 
