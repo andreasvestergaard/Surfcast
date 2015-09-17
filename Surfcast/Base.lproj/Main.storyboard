@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -110,15 +110,15 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gH9-sM-nbA">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2015-09-07 at 14.33.28.png" translatesAutoresizingMaskIntoConstraints="NO" id="d44-PH-r0k">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2015-09-17 at 11.45.54.png" translatesAutoresizingMaskIntoConstraints="NO" id="d44-PH-r0k">
                                         <rect key="frame" x="0.0" y="0.0" width="1870" height="1392"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1392" id="5AC-Bc-abP"/>
                                             <constraint firstAttribute="width" constant="1870" id="sWK-ur-gyR"/>
                                         </constraints>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="95y-oP-FRS">
-                                        <rect key="frame" x="23" y="18" width="35" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="95y-oP-FRS">
+                                        <rect key="frame" x="322" y="13" width="35" height="30"/>
                                         <state key="normal" title="Back">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -126,19 +126,8 @@
                                             <segue destination="vXZ-lx-hvc" kind="show" id="3eA-NB-ncg"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Wo-IR-HdT">
-                                        <rect key="frame" x="37" y="56" width="34" height="30"/>
-                                        <state key="normal" title="back">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="vXZ-lx-hvc" kind="show" id="4Aq-O4-uex"/>
-                                        </connections>
-                                    </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="1Wo-IR-HdT" firstAttribute="leading" secondItem="gH9-sM-nbA" secondAttribute="leading" constant="1740" id="5vg-43-sGi"/>
-                                    <constraint firstItem="1Wo-IR-HdT" firstAttribute="top" secondItem="95y-oP-FRS" secondAttribute="bottom" constant="17" id="DTC-H8-uTm"/>
                                     <constraint firstAttribute="bottom" secondItem="d44-PH-r0k" secondAttribute="bottom" id="Kar-hT-LOu"/>
                                     <constraint firstAttribute="trailing" secondItem="d44-PH-r0k" secondAttribute="trailing" id="Lod-lg-IqN"/>
                                     <constraint firstItem="d44-PH-r0k" firstAttribute="leading" secondItem="gH9-sM-nbA" secondAttribute="leading" id="ncx-sN-N3L"/>
@@ -162,10 +151,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Screen Shot 2015-09-07 at 14.33.28.png" width="1870" height="1392"/>
+        <image name="Screen Shot 2015-09-17 at 11.45.54.png" width="1868" height="1402"/>
         <image name="ddc6607f.jpeg" width="5184" height="3456"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="4Aq-O4-uex"/>
-    </inferredMetricsTieBreakers>
 </document>
